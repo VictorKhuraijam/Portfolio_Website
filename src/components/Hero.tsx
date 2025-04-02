@@ -1,14 +1,14 @@
 import { HiArrowDown } from "react-icons/hi";
 import { Link as ScrollLink } from "react-scroll/modules";
 import bgImage from "../assets/bgpattern3.png";
-import profileImage from "../assets/images/profileImage2.png";
+import profileImage from "../assets/images/MyProfilePicture.png";
 
 function Hero() {
 	return (
 		<section id="home">
 			<div
-				className="relative md:h-[calc(100vh-200px)] flex flex-col text-center items-center 
-							justify-center animate-fadeIn animation-delay-2 my-10 py-16 
+				className="relative md:h-[calc(100vh-200px)] flex flex-col text-center items-center
+							justify-center animate-fadeIn animation-delay-2 my-10 py-16
 							sm:py-30 md:py-24 md:flex-row md:space-x-4 md:text-left
 							"
 			>
@@ -27,18 +27,18 @@ function Hero() {
 				</div>
 				<div className="md:mt-2 md:w-3/5 relative">
 					<h1
-						className="heading text-4xl font-bold mt-6 md:mt-0 md:text-5xl 
+						className="heading text-4xl font-bold mt-6 md:mt-0 md:text-5xl
 									md:whitespace-nowrap md:-ml-4"
 					>
-						Hi, I'm Gustavo!
+						Hi, I'm Victor!
 					</h1>
 					<p className="font-semibold text-xl mt-4 mb-6 md:text-2xl">
-						<span className="">I'm a JavaScript Full-Stack Developer</span>
+						<span className="">I'm a Full-Stack Developer</span>
 					</p>
 					<p className="mt-4 mb-10 text-gray-300 md:text-lg">
-						React | Redux | TypeScript | Node | Express | NextJS
+						React | Redux | TypeScript | Node | Express
 						<br />
-						HTML | CSS | Sass | TailwindCSS | MySQL | MongoDB
+						HTML | CSS | TailwindCSS | Postman| MongoDB | Appwrite
 					</p>
 					{/* <a
 						target="_blank"

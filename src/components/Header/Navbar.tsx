@@ -33,7 +33,7 @@ const Navbar = () => {
 							duration={500}
 							className="cursor-pointer"
 						>
-							<span>GustavoPassarella</span>
+							<span>VictorKhuraijam</span>
 						</ScrollLink>
 					</h2>
 				</div>
